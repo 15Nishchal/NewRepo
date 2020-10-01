@@ -18,6 +18,9 @@ int factorial(int n)
 
 int main()
 {
-    int n = 3;
+    int n;
+    //taking user input from the user
+    cin >> n;
     cout << factorial(n) << endl;
+    cout << "Programs run successfully !" << endl;
 }
