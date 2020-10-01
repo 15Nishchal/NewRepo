@@ -9,7 +9,10 @@ int factorial(int n)
         return 1;
     }
 
+    //recursive call
     int smallAns = factorial(n-1);
+
+    //small calculation
     return n * smallAns;
 }
 
